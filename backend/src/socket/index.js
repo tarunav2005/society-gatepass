@@ -5,7 +5,10 @@ let io;
 
 export const initSocket = (httpServer) => {
   io = new Server(httpServer, {
-    cors: { origin: process.env.CLIENT_URL, credentials: true },
+    cors: {
+      origin: ["http://localhost:5173", "https://society-gatepass.vercel.app"],
+      credentials: true,
+    },
   });
 
   io.use((socket, next) => {

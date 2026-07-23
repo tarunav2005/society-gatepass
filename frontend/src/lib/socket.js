@@ -4,10 +4,12 @@ let socket = null;
 
 export const connectSocket = (accessToken) => {
   if (socket?.connected) return socket;
-  socket = io("http://localhost:5000", {
+
+  socket = io("https://society-gatepass-api.onrender.com", {
     auth: { token: accessToken },
     withCredentials: true,
   });
+
   return socket;
 };
 
