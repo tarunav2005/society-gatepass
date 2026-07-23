@@ -20,7 +20,12 @@ import reportRoutes from "./routes/reportRoutes.js";
 const app = express();
 
 app.use(helmet());
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+app.use(
+  cors({
+    origin: ["http://localhost:5173", "https://society-gatepass.vercel.app"],
+    credentials: true,
+  }),
+);
 app.use(express.json({ limit: "10mb" }));
 app.use(cookieParser());
 app.use(morgan("dev"));
