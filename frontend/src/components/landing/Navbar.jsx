@@ -40,9 +40,11 @@ export default function Navbar() {
           }`}
         >
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-500 to-purple-600 flex items-center justify-center">
-              <ShieldCheck className="w-5 h-5 text-white" />
-            </div>
+            <img
+              src="/favicon.svg"
+              alt="Society GatePass"
+              className="w-9 h-9 rounded-xl"
+            />
             <span className="font-bold text-slate-800 dark:text-white">
               Society GatePass
             </span>
