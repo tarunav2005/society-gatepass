@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://society-gatepass-api.onrender.com/api",
   withCredentials: true,
 });
 
@@ -36,7 +36,7 @@ api.interceptors.response.use(
       isRefreshing = true;
       try {
         const { data } = await axios.post(
-          "http://localhost:5000/api/auth/refresh",
+          "https://society-gatepass-api.onrender.com/api/auth/refresh",
           {},
           { withCredentials: true },
         );
