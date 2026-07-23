@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.glass {
+  @apply bg-white/70 dark:bg-slate-900/60 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-xl;
+}
+
+:root {
+  --toast-bg: #ffffff;
+  --toast-fg: #1e293b;
+}
+.dark {
+  --toast-bg: #1e293b;
+  --toast-fg: #f1f5f9;
+}
+
+/* Slim, theme-aware scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: theme("colors.slate.300");
+  border-radius: 999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: theme("colors.slate.700");
+}
+::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.slate.400");
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.slate.600");
+}
+
+/* Smooth theme transitions everywhere */
+* {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
