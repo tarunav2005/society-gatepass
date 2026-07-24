@@ -28,7 +28,27 @@ https://society-gatepass-api.onrender.com
 
 ## 🛠 Tech Stack
 
+## 🖥️ Frontend
+
+<p>
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+</p>
+
+---
+
+## ⚙️ Backend
+
+<p>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
@@ -40,24 +60,11 @@ https://society-gatepass-api.onrender.com
 
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-black?style=for-the-badge&logo=socketdotio)
 
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-0F9D58?style=for-the-badge&logo=gmail&logoColor=white)
 
 </p>
-Frontend
-- React
-- TailwindCSS
-- React Router
-- Axios
-
-Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT
-- Socket.IO
 
 ## 📷 Screenshots
 <img width="1917" height="956" alt="image" src="https://github.com/user-attachments/assets/aebed6d9-f295-4b7d-9cd1-67644f5b5d4d" />
